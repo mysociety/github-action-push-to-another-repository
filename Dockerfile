@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add --no-cache git git-lfs openssh-client
+RUN apk add --no-cache git git-lfs openssh-client openssl
 
 COPY entrypoint.sh /entrypoint.sh
 
